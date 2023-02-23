@@ -1,5 +1,6 @@
-<div class="alert alert-success">
-    Success! You've created a Twig component!
-
+{% if message %}
+    <div class="p-4 mb-4 text-sm text-{{ this.color }}-800 rounded-lg bg-{{ this.color }}-50 dark:bg-gray-800 dark:text-{{ this.color }}-400" role="alert">
+        {{ message }}
+    </div>
     <div data-controller="hello"></div>
-</div>
+{% endif %}
