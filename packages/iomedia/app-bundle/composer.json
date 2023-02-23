@@ -1,0 +1,12 @@
+{
+    "name": "iomedia/app-bundle",
+    "description": "Base application",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Iomedia\\AppBundle\\": "src/"
+        }
+    },
+    "require": {}
+}
