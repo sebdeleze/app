@@ -1,11 +1,12 @@
 {
-    "name": "Application",
+    "name": "iomedia/app",
     "type": "project",
     "license": "proprietary",
     "require": {
         "php": ">=7.2.5",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "doctrine/annotations": "^2.0",
         "doctrine/doctrine-bundle": "^2.8",
         "doctrine/doctrine-migrations-bundle": "^3.2",
         "doctrine/orm": "^2.14",
@@ -16,6 +17,8 @@
         "symfony/framework-bundle": "5.4.*",
         "symfony/monolog-bundle": "^3.0",
         "symfony/runtime": "5.4.*",
+        "symfony/ux-twig-component": "^2.7",
+        "symfony/webpack-encore-bundle": "^1.16",
         "symfony/yaml": "5.4.*"
     },
     "config": {
